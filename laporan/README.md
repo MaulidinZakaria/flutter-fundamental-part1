@@ -6,92 +6,120 @@
 | No    | 16               |
 | Kelas | TI-3G            |
 
-## Soal 1
+## Praktikum 1 :
 
-Silakan selesaikan Praktikum 1 sampai 3, lalu dokumentasikan berupa screenshot hasil pekerjaan beserta penjelasannya!
+### Langkah 1 : Pilih directory yang ingin digunakan untuk instalasi flutter
 
-#### Jawab :
+![](./images/Praktikum_1/Langkah1.png)
 
-Praktikum 1 :
+### Langkah 2 : Ketik flutter create nama-folder di terminal
 
-Image :
+![](./images/Praktikum_1/Langkah2.png)
 
-![](./images/Praktikum_1/Langkah1.png.png)
+### Langkah 3 : Ketik cd nama folder lalu code . untuk membuka folder flutter di code editor anda
 
-Kode tersebut adalah sebuah program sederhana yang menggunakan conditional statement (if-else) untuk memeriksa nilai dari sebuah string dan mencetak hasilnya berdasarkan kondisi yang terpenuhi.
+![](./images/Praktikum_1/Langkah3.png)
 
-Kode :
+### Langkah 4 : Project flutter sudah bisa digunakan.
 
-![](../../docs/Pertemuan_3/Pertemuan3_Kode2_Praktikum1.png)
+![](./images/Praktikum_1/Langkah4.png)
 
-Output :
+## Praktikum 2 :
 
-![](../../docs/Pertemuan_3/Pertemuan3_Output2_Praktikum1.png)
+### Langkah 1 : Buka mode developer di pengaturan HP
+### Langkah 2 : Aktifkan mode debug USB di opsi developer
+### Langkah 3 : Sambungkan HP ke Laptop menggunakan kabel USB
+### Langkah 4 : Pada code editor pastikan pilih device HP sebelum menjalankan project flutter
+### Langkah 5 : Project flutter sudah bisa ditampilkan lewat HP (Real Device)
 
-Kode tersebut adalah contoh dari penggunaan conditional statement (if) yang memeriksa nilai dari variabel bertipe boolean (bool) tanpa perlu menggunakan operator perbandingan.
+![](./images/Praktikum_2/hasil.jpg)
 
-Praktikum 2 :
+## Praktikum 3 :
 
-Kode :
+### Langkah 1 : Login ke akun GitHub Anda, lalu buat repository baru dengan nama "flutter-fundamental-part1"
 
-![](../../docs/Pertemuan_3/Pertemuan3_Kode1_Praktikum2.png)
+![](./images/Praktikum_3/Langkah1.png)
 
-Output :
+### Langkah 2 : Lalu klik tombol "Create repository" lalu akan tampil seperti gambar berikut.
 
-![](../../docs/Pertemuan_3/Pertemuan3_Output1_Praktikum2.png)
+![](./images/Praktikum_3/Langkah2.png)
 
-Kode tersebut adalah contoh penggunaan loop while dalam Dart.
+### Langkah 3 : Kembali ke VS code, project flutter hello_world, buka terminal pada menu Terminal > New Terminal. Lalu ketik perintah berikut untuk inisialisasi git pada project Anda.
 
-Kode :
+![](./images/Praktikum_3/Langkah3.png)
 
-![](../../docs/Pertemuan_3/Pertemuan3_Kode2_Praktikum2.png)
+### Langkah 4 : Pilih menu Source Control di bagian kiri, lalu lakukan stages (+) pada file .gitignore untuk mengunggah file pertama ke repository GitHub.
 
-Output :
+![](./images/Praktikum_3/Langkah4.png)
 
-![](../../docs/Pertemuan_3/Pertemuan3_Output2_Praktikum2.png)
+### Langkah 5 : Beri pesan commit "tambah gitignore" lalu klik Commit (✔)
 
-Kode tersebut adalah contoh penggunaan loop do-while dalam Dart. Loop do-while bekerja dengan menjalankan blok kode setidaknya satu kali, kemudian mengevaluasi kondisi setelahnya.
+![](./images/Praktikum_3/Langkah5.png)
 
-Praktikum 3 :
+### Langkah 6 : Lakukan push dengan klik bagian menu titik tiga > Push
 
-Kode :
+![](./images/Praktikum_3/Langkah6.png)
 
-![](../../docs/Pertemuan_3/Pertemuan3_Kode1_Praktikum3.png)
+### Langkah 7 : Di pojok kanan bawah akan tampil seperti gambar berikut. Klik "Add Remote"
 
-Output :
+![](./images/Praktikum_3/Langkah7.png)
 
-![](../../docs/Pertemuan_3/Pertemuan3_Output1_Praktikum3.png)
+### Langkah 8 : Salin tautan repository Anda dari browser ke bagian ini, lalu klik Add remote
 
-Kode tersebut adalah contoh penggunaan for loop dalam Dart.
+![](./images/Praktikum_3/Langkah8_1.png)
 
-Kode :
+### Setelah berhasil, tulis remote name dengan "origin"
 
-![](../../docs/Pertemuan_3/Pertemuan3_Kode2_Praktikum3.png)
+![](./images/Praktikum_3/Langkah8_2.png)
 
-Output :
+### Langkah 9 : Lakukan hal yang sama pada file README.md mulai dari Langkah 4. Setelah berhasil melakukan push, masukkan username GitHub Anda dan password berupa token yang telah dibuat (pengganti password konvensional ketika Anda login di browser GitHub). Reload halaman repository GitHub Anda, maka akan tampil hasil push kedua file tersebut seperti gambar berikut.
 
-![](../../docs/Pertemuan_3/Pertemuan3_Output2_Praktikum3.png)
+![](./images/Praktikum_3/Langkah9.png)
 
-Kode ini adalah contoh penggunaan for loop dengan kombinasi if, break, dan continue. "break" digunakan untuk menghentikan loop dan keluar dari perulangan sepenuhnya. Sedangkan "continue" digunakan untuk melewatkan iterasi saat ini dan langsung melompat ke iterasi berikutnya.
+### Langkah 10 : Lakukan push juga untuk semua file lainnya dengan pilih Stage All Changes. Beri pesan commit "project hello_world". Maka akan tampil di repository GitHub Anda seperti berikut.
 
-## Soal 2
+![](./images/Praktikum_3/Langkah10.png)
 
-Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
+### Langkah 11 : Kembali ke VS Code, ubah platform di pojok kanan bawah ke emulator atau device atau bisa juga menggunakan browser Chrome. Lalu coba running project hello_world dengan tekan F5 atau Run > Start Debugging. Tunggu proses kompilasi hingga selesai, maka aplikasi flutter pertama Anda akan tampil seperti berikut.
 
-#### Jawab :
+![](./images/Praktikum_3/Langkah11.png)
 
-Kode :
+### Langkah 12 : Silakan screenshot seperti pada Langkah 11, namun teks yang ditampilkan dalam aplikasi berupa nama lengkap Anda. Simpan file screenshot dengan nama 01.png pada folder images (buat folder baru jika belum ada) di project hello_world Anda. Lalu ubah isi README.md seperti berikut, sehingga tampil hasil screenshot pada file README.md. Kemudian push ke repository Anda.
 
-![](../../docs/Pertemuan_3/Pertemuan3_Tugas2_Kode.png)
+![](./images/Praktikum_3/Langkah12.png)
 
-Output :
+## Praktikum 4 :
 
-![](../../docs/Pertemuan_3/Pertemuan3_Tugas2_Output.png)
+### Langkah 1 : Text Widget digunakan untuk menampilkan teks pada halaman. 
 
-## Soal 3
+![](./images/Praktikum_4/Langkah1.png)
 
-Kumpulkan berupa link commit repo GitHub pada tautan yang telah disediakan di grup Telegram!
+### Langkah 2 : Image Widget digunakan untuk menampilkan gambar 
 
-#### Jawab :
+![](./images/Praktikum_4/Langkah2.png)
 
-[Link Github](https://github.com/MaulidinZakaria/16_MaulidinZakaria_JobsheetMobile)
+## Praktikum 5 :
+
+### Langkah 1 : Cupertino Button dan Loading Bar digunakan untuk menampilkan button dan loading animation pada halaman. 
+
+![](./images/Praktikum_5/Langkah1.png)
+
+### Langkah 2 : Floating Action Button (FAB) digunakan untuk membuat button yang melayang pada halaman. 
+
+![](./images/Praktikum_5/Langkah2.png)
+
+### Langkah 3 : Scaffold Widget digunakan mengatur layout pada halaman yang ditampilkan. 
+
+![](./images/Praktikum_5/Langkah3.png)
+
+### Langkah 4 : Dialog Widget digunakan untuk menampilkan modal pada halaman. 
+
+![](./images/Praktikum_5/Langkah4.png)
+
+### Langkah 5 : Input Widget digunakan untuk menampilkan text input pada halaman. 
+
+![](./images/Praktikum_5/Langkah5.png)
+
+### Langkah 6 : Date and Time Picker digunakan untuk menampilkan date and time picker widget pada halaman.
+
+![](./images/Praktikum_5/Langkah6.png)
